@@ -52,4 +52,25 @@
          border-top: 1px solid var(--white);
      }
  }
- 
+
+
+ /*-------------------------------------
+ ---TOP CONTAINER - COMPANY (BLA-BLA)---
+ -------------------------------------*/
+
+ .topcon {
+     text-align: center;
+     background-color: var(--orange);
+     color: var(--white);
+     padding: 100px 25px;
+ }
+
+
+ .topcon h1 {
+     font: 63px montserrat, sans-serif;
+ }
+
+
+ .topcon p {
+     font: 21px montserrat, sans-serif;
+ }
