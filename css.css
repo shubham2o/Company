@@ -15,7 +15,8 @@
 
  .nav1 {
      background-color: var(--orange);
-     letter-spacing: 5px;
+     letter-spacing: 4px;
+     font: 12px montserrat, sans-serif;
  }
 
 
@@ -44,3 +45,8 @@
 .navbar-toggle:hover #iconbar {
      background-color: var(--orange);
 }
+
+
+ .navbar-nav {
+     border-top: 1px solid var(--white);
+ }
