@@ -5,9 +5,42 @@
 
  :root {
      --orange:#f4511e;
+     --white:	#FFFFFF;
  }
 
 
  /*------------------------------------
  ----------------NAVBAR----------------
  ------------------------------------*/
+
+ .nav1 {
+     background-color: var(--orange);
+     letter-spacing: 5px;
+ }
+
+
+ .nav1 .navbar-header .navbar-brand,
+ .nav1 .navbar-nav a {
+     color: var(--white);
+ }
+
+
+ .nav1 .navbar-nav a:hover {
+     background-color: var(--white);
+     color: var(--orange);
+ }
+
+
+ #iconbar {
+     background-color: var(--white);
+ }
+
+
+ .navbar-toggle:hover {
+     background-color: var(--white);
+}
+
+
+.navbar-toggle:hover #iconbar {
+     background-color: var(--orange);
+}
