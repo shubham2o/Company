@@ -29,6 +29,23 @@
      .topcon h1 {
          font: 36px montserrat, sans-serif !important;
      }
+     .acp .acp_p2 {
+         margin-top: 65px;
+   }
+ }
+
+
+ @media screen and (max-width:720px) and (min-width:570px) {
+     .acp .acp_p2 {
+         margin-top: 50px;
+   }
+ }
+
+
+ @media screen and (max-width:1050px) and (min-width:721px){
+     .acp .acp_p2 {
+         margin-top: 40px;
+   }
  }
 
 
@@ -129,4 +146,27 @@
 
  #subscribe:hover {
      background-color:var(--red);
+ }
+
+
+ /*-------------------------------------
+ -----------ABOUT COMPANY PAGE----------
+ -------------------------------------*/
+
+ .acp {
+     margin: 85px 22px;
+ }
+
+
+ .acp .acp_p1 {
+     position: absolute;
+     padding-top: 60px;
+     line-height: 25px !important;
+ }
+
+
+ .acp .acp_p2 {
+     position: absolute;
+     padding-top: 200px !important;
+     line-height: 25px !important;
  }
