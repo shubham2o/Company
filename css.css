@@ -68,7 +68,7 @@
          margin-right: 132px;
      }
      .topcon {
-         width: 100%;
+         width: 100% !important;
      }
  }
 
@@ -80,7 +80,14 @@
          margin-right: 165px;
      }
      .topcon {
-         width: 100%;
+         width: 100% !important;
+     }
+ }
+
+
+ @media screen and (max-width:830px) and (min-width:769px) {
+     .topcon {
+         width: 100% !important;
      }
  }
 
