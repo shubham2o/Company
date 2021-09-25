@@ -113,6 +113,7 @@
 
  .navbar-toggle:hover #iconbar {
      background-color: var(--orange);
+     box-shadow: 1px 1px var(--black);
 }
 
 
