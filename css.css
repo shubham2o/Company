@@ -161,6 +161,41 @@
  }
 
 
+  @media screen and (max-width:349px) {
+     #email {
+         width: 235px;
+     }
+ }
+
+
+ @media screen and (min-width:350px) and (max-width:369px) {
+     #email {
+         width: 235px;
+     }
+ }
+
+
+ @media screen and (min-width:370px) and (max-width:389px) {
+     #email {
+         width: 250px;
+     }
+ }
+
+
+ @media screen and (min-width:390px) and (max-width:408px) {
+     #email {
+         width: 265px;
+     }
+ }
+
+
+ @media screen and (min-width:409px) and (max-width:430px) {
+     #email {
+         width: 280px;
+     }
+ }
+
+
                              /*---------------------------------------
                              ------------ @MEDIA SCREEN {} -----------
                              ------------ .acp - .acp_p2 -------------
