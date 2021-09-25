@@ -49,6 +49,8 @@
  .nav1 .navbar-nav a:hover {
      background-color: var(--white);
      color: var(--orange);
+     font-weight: bolder;
+     text-shadow: 1px 1px var(--black);
  }
 
 
