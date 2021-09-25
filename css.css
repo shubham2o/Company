@@ -56,7 +56,7 @@
          margin-right: 60px;
      }
      .topcon {
-         width: 100% !important;
+         padding: auto !important;
      }
  }
 
@@ -68,7 +68,7 @@
          margin-right: 132px;
      }
      .topcon {
-         width: 100% !important;
+         padding: auto !important; 
      }
  }
 
@@ -80,14 +80,14 @@
          margin-right: 165px;
      }
      .topcon {
-         width: 100% !important;
+         padding: auto !important;
      }
  }
 
 
  @media screen and (max-width:830px) and (min-width:769px) {
      .topcon {
-         width: 100% !important;
+         padding: auto !important;
      }
  }
 
