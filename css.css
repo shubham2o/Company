@@ -31,14 +31,14 @@
      }
      .acp .acp_p2 {
          margin-top: 65px;
-   }
+     }
  }
 
 
  @media screen and (max-width:720px) and (min-width:570px) {
      .acp .acp_p2 {
          margin-top: 50px;
-   }
+     }
  }
 
 
@@ -46,6 +46,33 @@
      .acp .acp_p2 {
          margin-top: 40px;
    }
+ }
+
+
+ @media screen and (max-width:569px) {
+     .acp .acp_img {
+         margin-top: 600px;
+         margin-left: 65px;
+         margin-right: 60px;
+     }
+ }
+
+
+ @media screen and (max-width:650px) and (min-width:570px) {
+     .acp .acp_img {
+         margin-top: 500px;
+         margin-left: 132px;
+         margin-right: 132px;
+     }
+ }
+
+
+ @media screen and (max-width:768px) and (min-width:651px) {
+     .acp .acp_img {
+         margin-top: 500px;
+         margin-left: 165px;
+         margin-right: 165px;
+     }
  }
 
 
@@ -170,3 +197,5 @@
      padding-top: 200px !important;
      line-height: 25px !important;
  }
+
+
