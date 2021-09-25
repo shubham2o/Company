@@ -139,7 +139,7 @@
                              /*------ @MEDIA SCREEN {} -------------
                              -------- EMAIL - SUBSCRIBE ------------
                              -------- NAVBAR & --------------------- 
-                             -------- TOPCON HEADING -------------*/
+                             ------- .topcon HEADING -------------*/
 
  @media screen and (max-width:569px) {
      .navbar-nav {
