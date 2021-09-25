@@ -26,6 +26,9 @@
          border-bottom-right-radius: 15px;
          border-right: 1px solid var(--black) !important;
      }
+     .topcon h1 {
+         font: 36px montserrat, sans-serif !important;
+     }
  }
 
 
