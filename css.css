@@ -55,8 +55,8 @@
          margin-left: 65px;
          margin-right: 60px;
      }
-     .topcon {
-         padding: auto !important;
+     #email {
+         width: auto !important;
      }
  }
 
@@ -67,8 +67,8 @@
          margin-left: 132px;
          margin-right: 132px;
      }
-     .topcon {
-         padding: auto !important; 
+     #email {
+         width: auto !important;
      }
  }
 
@@ -79,15 +79,8 @@
          margin-left: 165px;
          margin-right: 165px;
      }
-     .topcon {
-         padding: auto !important;
-     }
- }
-
-
- @media screen and (max-width:830px) and (min-width:769px) {
-     .topcon {
-         padding: auto !important;
+     #email {
+         width: auto !important;
      }
  }
 
