@@ -12,7 +12,7 @@
  }
 
 
- @media screen and (max-width:768px) {
+ @media screen and (max-width:569px) {
      .navbar-nav {
          border-top: 1px solid var(--white);
      }
