@@ -55,8 +55,8 @@
          margin-left: 65px;
          margin-right: 60px;
      }
-     #email {
-         width: 100px;
+     .topcon {
+         width: 100% !important;
      }
  }
 
@@ -67,6 +67,9 @@
          margin-left: 132px;
          margin-right: 132px;
      }
+     .topcon {
+         width: 100%;
+     }
  }
 
 
@@ -75,6 +78,9 @@
          margin-top: 500px;
          margin-left: 165px;
          margin-right: 165px;
+     }
+     .topcon {
+         width: 100%;
      }
  }
 
