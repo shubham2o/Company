@@ -100,7 +100,6 @@
  #subscribe {
      margin-left: -3px;
      padding: 8px 18px;
-     font-weight: bolder;
      border-top-right-radius: 15px;
      border-bottom-right-radius: 15px;
      border: 1px solid var(--black);
@@ -110,6 +109,7 @@
 
  #subscribe:hover {
      background-color:var(--red);
+     font-weight: bolder;
  }
 
 
@@ -176,7 +176,8 @@
                              /*------- ABOUT COMPANY PAGE ------
                              -------- .acp_con-flu -------------
                              -------- .acp ---------------------
-                             -------- .acp_col1 --------------*/
+                             -------- .acp_col1 ----------------
+                             -------- .btn (Get in Touch) ----*/
                             
  .acp_con-flu {
      padding-top: 30px;
@@ -215,6 +216,42 @@
  }
 
 
+ .acp_col1 .btn {
+     background-color: var(--orange);
+     border-radius: 15px;
+     border: 1px solid var(--black);
+ }
+
+
+ .acp_col1 .btn a {
+     text-decoration: none;
+     color: var(--white);
+     font-weight: lighter;
+ }
+
+
+ .acp_col1 .btn:hover {
+     background-color: var(--red);
+ }
+
+
+ .acp_col1 .btn:hover a {
+     font-weight: bolder;
+ }
+
+
+ .acp_col1 .btn:active {
+     background-color: var(--white);
+     border: 3px solid var(--orange);
+ }
+
+
+  .acp_col1 .btn:active a {
+     color: var(--black);
+     font-weight: lighter;
+ }
+
+
                              /*--------------------------------------
                              ----------- MEDIA SCREEN {} ------------
                              ----------- .acp_col1 .btn -------------
@@ -235,7 +272,7 @@
 
 
 
- 
+
  /*=====================================================================================================================================================
  =======================================================================================================================================================*/
 
