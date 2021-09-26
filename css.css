@@ -400,6 +400,15 @@
  .port_row img {
      width: 100%;
      height: 100%;
+     border-radius: 50px;
+ }
+
+
+ .port_row .thumbnail {
+     padding: 20px;
+     background-color: #424642;
+     border-radius: 60px;
+     box-shadow: 15px 15px var(--black);
  }
 
 
@@ -407,11 +416,15 @@
      margin: 15px 0px;
      font: 18px Lato, sans-serif;
      letter-spacing: 5px;
+     color: var(--orange);
+     font-weight: bolder;
+     text-shadow: 1px 1px var(--orange);
  }
 
 
  .port_row .thumbnail .help-block {
      font: 15px Lato, sans-serif;
+     color: var(--white);
  }
 
 
