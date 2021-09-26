@@ -206,6 +206,42 @@
      padding: 10px;
  } */
 
+ .acp_con-flu {
+     padding-top: 30px;
+ }
+
+
+ .acp {
+     padding: 40px;
+     font-family: Lato, sans-serif;
+ }
+
+
+ .acp_col1 {
+     position: relative;
+     padding-top: 1px;
+ }
+
+
+ .acp .acp_col1 h2 {
+     font-size: 24px;
+     font-weight: bolder;
+ }
+
+
+ .acp .acp_col1 h4 {
+     font-size: 19px;
+     line-height: 28px;
+     padding-top: 20px;
+ }
+
+
+ .acp .acp_col1 p {
+     font-size: 15px;
+     line-height: 28px;
+     padding-top: 20px;
+ }
+
 
                              /*---------------------------------------
                              ------------ @MEDIA SCREEN {} -----------
