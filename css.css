@@ -319,6 +319,37 @@
  }
 
 
+ .serv_row1 {
+     margin: 50px 20px;
+ }
+
+
+ .serv_col {
+     text-align: center;
+     margin-top: 25px;
+ }
+
+
+ #off {
+     margin-top: 0px;
+     font-size: 50px;
+     color: var(--orange);
+ }
+
+
+ .serv_row1 .serv_col .hfour {
+     margin-top: 15px;
+     font-size: 19px;
+ }
+
+
+ .serv_row1 .serv_col p {
+     font-size: 15px;
+     line-height: 28px;
+     margin-top: 35px;
+ }
+
+
 
 
 
