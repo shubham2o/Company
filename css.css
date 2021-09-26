@@ -296,7 +296,9 @@
 
                              /*-------------- .services -------------
                              ---------------- .serv_row1 ------------
-                             ---------------- .serv_col -----------*/
+                             ------------- .row2_col1 - 2 - 3 -------
+                             ---------------- .serv_row2 ------------
+                             ------------- .row2_col1 - 2 - 3 -----*/
                             
  .services {
      padding-top: 40px;
@@ -315,35 +317,52 @@
  .services h4 {
      font-size: 19px;
      text-align: center;
-     margin-top: 30px;
+     margin-top: 25px;
+     margin-bottom: 30px;
  }
 
 
- .serv_row1 {
+ .serv_row1,
+ .serv_row2 {
      margin: 50px 20px;
  }
 
 
- .serv_col {
+ .row1_col1,
+ .row1_col2,
+ .row1_col3,
+ .row2_col1,
+ .row2_col2,
+ .row2_col3 {
      text-align: center;
      margin-top: 25px;
  }
 
 
- #off {
+ #servicon {
      margin-top: 0px;
      font-size: 50px;
      color: var(--orange);
  }
 
 
- .serv_row1 .serv_col .hfour {
+ .serv_row1 .row1_col1 .hfour,
+ .serv_row1 .row1_col2 .hfour,
+ .serv_row1 .row1_col3 .hfour,
+ .serv_row2 .row2_col1 .hfour,
+ .serv_row2 .row2_col2 .hfour,
+ .serv_row2 .row2_col3 .hfour {
      margin-top: 15px;
      font-size: 19px;
  }
 
 
- .serv_row1 .serv_col p {
+ .serv_row1 .row1_col1 p,
+ .serv_row1 .row1_col2 p,
+ .serv_row1 .row1_col3 p,
+ .serv_row2 .row2_col1 p,
+ .serv_row2 .row3_col2 p,
+ .serv_row2 .row2_col3 p  {
      font-size: 15px;
      line-height: 28px;
      margin-top: 35px;
