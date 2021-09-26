@@ -378,7 +378,7 @@
   .portfolio {
      padding-top: 40px;
      font-family: Lato, sans-serif;
-     background-color: #f6f6f6;;
+     background-color: #f6f6f6;
  }
 
 
@@ -435,9 +435,43 @@
 
 
  .portfolio h2 {
-     margin-top: 50px;
-     margin-bottom: 25px;
+     margin: 60px 0px;
  }
+
+
+ .glyphicon-chevron-left,
+ .glyphicon-chevron-right {
+     color: var(--orange);
+ }
+
+
+ .slide {
+     background-color: #424642;
+     margin: 70px 50px;
+     padding: 30px 20px;
+     border-radius: 70px;
+ }
+
+
+ .carousel-inner em {
+     color: var(--orange);
+     word-spacing: 4px;
+     font-size: 23px;
+     font-weight: bolder;
+ }
+
+
+ .carousel-inner span {
+     color: var(--white);
+ }
+
+
+ .slide .left,
+ .slide .right {
+     margin: 120px 0px;
+     background-color: #424642;
+ }
+
 
 
 
