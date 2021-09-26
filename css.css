@@ -393,8 +393,8 @@
  .portfolio h4 {
      font-size: 19px;
      text-align: center;
-     margin-top: 55px;
-     margin-bottom: 50px;
+     padding-top: 10px;
+     padding-bottom: 30px;
  }
 
 
@@ -470,6 +470,22 @@
  .slide .right {
      margin: 120px 0px;
      background-color: #424642;
+ }
+
+
+ .pricing {
+     text-align: center;
+ }
+
+
+ .pricing h2 {
+     font: 24px Lato, sans-serif ;
+     font-weight: bolder;
+ }
+
+
+ .pricing p{
+     font: 19px Lato, sans-serif ;
  }
 
 
