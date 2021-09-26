@@ -136,9 +136,14 @@
  }
 
 
- .acp .btn {
-     padding: 10px 0px;
-     position: absolute;
+ #git_btn {
+     position: relative;
+     top: 30px;
+ }
+
+
+ #git_btn button {
+     padding: 10px;
  }
 
 
