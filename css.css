@@ -202,20 +202,23 @@
  }
 
 
- .acp .acp_col1 h2 {
+ .acp .acp_col1 h2,
+ .our_row .our_col2 h2 {
      font-size: 24px;
      font-weight: bolder;
  }
 
 
- .acp .acp_col1 h4 {
+ .acp .acp_col1 h4,
+ .our_row .our_col2 h4 {
      font-size: 19px;
      line-height: 28px;
      padding-top: 20px;
  }
 
 
- .acp .acp_col1 p {
+ .acp .acp_col1 p,
+ .our_row .our_col2 p {
      font-size: 15px;
      line-height: 28px;
      padding-top: 20px;
