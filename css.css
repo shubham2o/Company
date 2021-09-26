@@ -173,30 +173,30 @@
  }
 
 
-                             /*------- ABOUT COMPANY PAGE ------
-                             -------- .acp_con-flu -------------
-                             -------- .acp ---------------------
-                             -------- .acp_col1 ----------------
-                             -------- .btn (Get in Touch) ------
-                             -------- .acp_col2 ----------------
-                             -------- #bargraph ----------------
-                             -------- #globe -----------------*/
+                             /*------- ABOUT COMPANY PAGE --------------
+                             --------- OUR VALUES ----------------------
+                             -------- .acp_con-flu || .our -------------
+                             -------- .acp || .our_row -----------------
+                             -------- .acp_col1 || .our_col2 -----------
+                             -------- .btn (Get in Touch) --------------
+                             -------- .acp_col2 || .our_col1 -----------
+                             -------- #bargraph || #globe ------------*/
                             
  .acp_con-flu,
- .our {
+ .our {                      /*------------ .our -------------*/
      padding-top: 30px;
  }
 
 
  .acp,
- .our_row {
+ .our_row {                  /*---------- .our_row -----------*/
      padding: 40px;
      font-family: Lato, sans-serif;
  }
 
 
  .acp_col1,
- .our_col2 {
+ .our_col2 {                 /*---------- .our_col_2 ---------*/
      position: relative;
      padding-top: 1px;
  }
@@ -259,14 +259,13 @@
 
 
  .acp_col2,
- .our_col1 {
+ .our_col1 {                 /*---------- .our_col_1 --------------*/
      padding: 2px 0px 2px 15px;
  }
 
 
  #bargraph,
-                             /*---------- #globe ------------------*/
- #globe {
+ #globe {                    /*------------ #globe -----------------*/
      color: var(--orange);
      font-size: 200px;
  }
@@ -276,6 +275,7 @@
                              ------------ MEDIA SCREEN {} -----------
                              ----------- .btn (Get in Touch) --------
                              ----------- .acp_col2 ------------------
+                             ----------- .our_col_1 -----------------
                              --------------------------------------*/
 
  @media screen and (max-width: 768px) {
@@ -283,7 +283,7 @@
          width: 100%;
      }
      .acp_col2,
-     .our_col1 {
+     .our_col1 {             /*---------- .our_col_1 --------------*/
          text-align: center;
          top: 35px;
          padding: 35px 0px;
