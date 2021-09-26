@@ -173,39 +173,11 @@
  }
 
 
-                             /*--- ABOUT COMPANY PAGE - .acp ---
-                             ------------ .acp_p1 --------------
-                             ------------ .acp_p2 ------------*/
-/* 
- .acp {
-     margin: 85px 22px;
- }
-
-
- .acp .acp_p1 {
-     position: absolute;
-     padding-top: 60px;
-     line-height: 25px !important;
- }
-
-
- .acp .acp_p2 {
-     position: absolute;
-     padding-top: 200px !important;
-     line-height: 25px !important;
- }
-
-
- #git_btn {
-     position: relative;
-     top: 30px;
- }
-
-
- #git_btn button {
-     padding: 10px;
- } */
-
+                             /*--- ABOUT COMPANY PAGE ------
+                             ---- .acp_con-flu -------------
+                             ---- .acp ---------------------
+                             ---- .acp_col1 --------------*/
+                            
  .acp_con-flu {
      padding-top: 30px;
  }
@@ -243,6 +215,11 @@
  }
 
 
+                             /*---------------------------------
+                             ------ MEDIA SCREEN {} ------------
+                             ------ .acp_col1 .btn -------------
+                             ---------------------------------*/
+
  @media screen and (max-width: 768px) {
      .acp_col1 .btn {
          width: 100%;
@@ -250,12 +227,67 @@
  }
 
 
-                             /*---------------------------------------
+
+
+
+
+
+
+
+
+ /*-----IGNORE--------(SORRY FOR THIS)-----------IGNORE--------(SORRY FOR THIS)-------------IGNORE---------(SORRY FOR THIS)--------
+ -------IGNORE--------(SORRY FOR THIS)-----------IGNORE--------(SORRY FOR THIS)-------------IGNORE---------(SORRY FOR THIS)--------
+ -------IGNORE--------(SORRY FOR THIS)-----------IGNORE--------(SORRY FOR THIS)-------------IGNORE---------(SORRY FOR THIS)--------                          
+ -------IGNORE--------(SORRY FOR THIS)-----------IGNORE--------(SORRY FOR THIS)-------------IGNORE---------(SORRY FOR THIS)--------                          
+ -------IGNORE--------(SORRY FOR THIS)-----------IGNORE--------(SORRY FOR THIS)-------------IGNORE---------(SORRY FOR THIS)--------                          
+ -------IGNORE--------(SORRY FOR THIS)-----------IGNORE--------(SORRY FOR THIS)-------------IGNORE---------(SORRY FOR THIS)--------                          
+ -------IGNORE--------(SORRY FOR THIS)-----------IGNORE--------(SORRY FOR THIS)-------------IGNORE---------(SORRY FOR THIS)--------
+ -------IGNORE--------(SORRY FOR THIS)-----------IGNORE--------(SORRY FOR THIS)-------------IGNORE---------(SORRY FOR THIS)--------                          
+ -------IGNORE--------(SORRY FOR THIS)-----------IGNORE--------(SORRY FOR THIS)-------------IGNORE---------(SORRY FOR THIS)--------                          
+ -------IGNORE--------(SORRY FOR THIS)-----------IGNORE--------(SORRY FOR THIS)-------------IGNORE---------(SORRY FOR THIS)--------                          
+ -------IGNORE--------(SORRY FOR THIS)-----------IGNORE--------(SORRY FOR THIS)-------------IGNORE---------(SORRY FOR THIS)--------                          
+ -------IGNORE--------(SORRY FOR THIS)-----------IGNORE--------(SORRY FOR THIS)-------------IGNORE---------(SORRY FOR THIS)--------                          
+
+
+
+                             ------ABOUT COMPANY PAGE-
+                             ----- .acp --------------
+                             ------------------------
+
+  .acp {
+     margin: 85px 22px;
+ }
+
+
+ .acp .acp_p1 {
+     position: absolute;
+     padding-top: 60px;
+     line-height: 25px !important;
+ }
+
+
+ .acp .acp_p2 {
+     position: absolute;
+     padding-top: 200px !important;
+     line-height: 25px !important;
+ }
+
+
+ #git_btn {
+     position: relative;
+     top: 30px;
+ }
+
+
+ #git_btn button {
+     padding: 10px;
+ }    
+                             ---------------------------------------
                              ------------ @MEDIA SCREEN {} -----------
                              ------------ .acp - .acp_p2 -------------
-                             ---------------------------------------*/
+                             ---------------------------------------
 
- /* @media screen and (max-width:386px) {
+ @media screen and (max-width:386px) {
      .acp .acp_p2 {
          margin-top: 135px;
      }
@@ -294,15 +326,15 @@
      .acp .acp_p2 {
          margin-top: 40px;
    }
- } */
+ } 
 
 
-                             /*-----------------------------------------
+                             -----------------------------------------
                              ------------- @MEDIA SCREEN {} ------------
                              -------- .acp - .acp_img (Bargraph) -------
-                             -----------------------------------------*/
+                             -----------------------------------------
 
-  /* @media screen and (max-width:386px) {
+   @media screen and (max-width:386px) {
      .acp .acp_img {
          margin-top: 800px;
      }
@@ -360,4 +392,5 @@
          margin-left: 165px;
          margin-right: 165px;
      }
- } */
+  } 
+ */
