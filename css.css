@@ -113,40 +113,6 @@
  }
 
 
-                             /*--- ABOUT COMPANY PAGE - .acp ---
-                             ------------ .acp_p1 --------------
-                             ------------ .acp_p2 ------------*/
-/* 
- .acp {
-     margin: 85px 22px;
- }
-
-
- .acp .acp_p1 {
-     position: absolute;
-     padding-top: 60px;
-     line-height: 25px !important;
- }
-
-
- .acp .acp_p2 {
-     position: absolute;
-     padding-top: 200px !important;
-     line-height: 25px !important;
- }
-
-
- #git_btn {
-     position: relative;
-     top: 30px;
- }
-
-
- #git_btn button {
-     padding: 10px;
- } */
-
-
                              /*------ @MEDIA SCREEN {} -------------
                              -------- EMAIL - SUBSCRIBE ------------
                              -------- NAVBAR & --------------------- 
@@ -205,6 +171,40 @@
          width: 280px;
      }
  }
+
+
+                             /*--- ABOUT COMPANY PAGE - .acp ---
+                             ------------ .acp_p1 --------------
+                             ------------ .acp_p2 ------------*/
+/* 
+ .acp {
+     margin: 85px 22px;
+ }
+
+
+ .acp .acp_p1 {
+     position: absolute;
+     padding-top: 60px;
+     line-height: 25px !important;
+ }
+
+
+ .acp .acp_p2 {
+     position: absolute;
+     padding-top: 200px !important;
+     line-height: 25px !important;
+ }
+
+
+ #git_btn {
+     position: relative;
+     top: 30px;
+ }
+
+
+ #git_btn button {
+     padding: 10px;
+ } */
 
 
                              /*---------------------------------------
