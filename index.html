@@ -41,7 +41,7 @@
      </head>
      <!--=====================================================================================================================================================
      =======================================================================================================================================================-->
-     <body>
+     <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
     
                              <!-------------------------------------
@@ -61,10 +61,10 @@
                  <div class="collapse navbar-collapse" id="mynavbar">
                      <ul class="nav navbar-nav navbar-right">
                          <li>
-                             <a href="">ABOUT</a>
+                             <a href="#about">ABOUT</a>
                          </li>
                           <li>
-                             <a href="">SERVICES</a>
+                             <a href="#services">SERVICES</a>
                          </li>
                           <li>
                              <a href="">PORTFOLIO</a>
@@ -90,7 +90,7 @@
              <p>We specialize in blablabla</p>
              <form action="">
                  <label for="email" class="sr-only">EMAIL</label>
-                 <input type="email" id="email"  placeholder="Email Address" name="email" id="email" autofocus="on">
+                 <input type="email" id="email"  placeholder="Email Address" name="email" id="email" autofocus="on" required>
                  <button type="submit" id="subscribe">Subscribe</button>
              </form>
          </div>
@@ -104,7 +104,7 @@
                              ---------- .acp_col2 ----------------
                              ---------- #bargraph --------------->
                             
-         <div class="container-fluid acp_con-flu">
+         <div class="container-fluid acp_con-flu" id="about">
              <div class="row acp">
                  <div class="col-sm-8 acp_col1">
                      <h2>ABOUT COMPANY PAGE</h2>
