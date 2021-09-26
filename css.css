@@ -116,7 +116,7 @@
                              /*--- ABOUT COMPANY PAGE - .acp ---
                              ------------ .acp_p1 --------------
                              ------------ .acp_p2 ------------*/
-
+/* 
  .acp {
      margin: 85px 22px;
  }
@@ -144,7 +144,7 @@
 
  #git_btn button {
      padding: 10px;
- }
+ } */
 
 
                              /*------ @MEDIA SCREEN {} -------------
@@ -212,7 +212,7 @@
                              ------------ .acp - .acp_p2 -------------
                              ---------------------------------------*/
 
- @media screen and (max-width:386px) {
+ /* @media screen and (max-width:386px) {
      .acp .acp_p2 {
          margin-top: 135px;
      }
@@ -251,7 +251,7 @@
      .acp .acp_p2 {
          margin-top: 40px;
    }
- }
+ } */
 
 
                              /*-----------------------------------------
@@ -259,7 +259,7 @@
                              -------- .acp - .acp_img (Bargraph) -------
                              -----------------------------------------*/
 
-  @media screen and (max-width:386px) {
+  /* @media screen and (max-width:386px) {
      .acp .acp_img {
          margin-top: 800px;
      }
@@ -317,4 +317,4 @@
          margin-left: 165px;
          margin-right: 165px;
      }
- }
+ } */
