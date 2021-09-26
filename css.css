@@ -177,7 +177,9 @@
                              -------- .acp_con-flu -------------
                              -------- .acp ---------------------
                              -------- .acp_col1 ----------------
-                             -------- .btn (Get in Touch) ----*/
+                             -------- .acp_col2 ----------------
+                             -------- .btn (Get in Touch) ------
+                             -------- #bargraph --------------*/
                             
  .acp_con-flu {
      padding-top: 30px;
@@ -252,15 +254,31 @@
  }
 
 
+ .acp_col2 {
+     padding: 2px 0px 2px 15px;
+ }
+
+
+ #bargraph {
+     color: var(--orange);
+     font-size: 200px;
+ }
+
+
                              /*--------------------------------------
                              ----------- MEDIA SCREEN {} ------------
-                             ----------- .acp_col1 .btn -------------
+                             ----------- .btn (Get in Touch) --------
                              --------------------------------------*/
 
  @media screen and (max-width: 768px) {
      .acp_col1 .btn {
          width: 100%;
      }
+     .acp_col2 {
+         text-align: center;
+         top: 35px;
+         padding: 35px 0px;
+ }
  }
 
 
