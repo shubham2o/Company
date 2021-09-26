@@ -179,20 +179,24 @@
                              -------- .acp_col1 ----------------
                              -------- .btn (Get in Touch) ------
                              -------- .acp_col2 ----------------
-                             -------- #bargraph --------------*/
+                             -------- #bargraph ----------------
+                             -------- #globe -----------------*/
                             
- .acp_con-flu {
+ .acp_con-flu,
+ .our {
      padding-top: 30px;
  }
 
 
- .acp {
+ .acp,
+ .our_row {
      padding: 40px;
      font-family: Lato, sans-serif;
  }
 
 
- .acp_col1 {
+ .acp_col1,
+ .our_col2 {
      position: relative;
      padding-top: 1px;
  }
@@ -254,12 +258,15 @@
  }
 
 
- .acp_col2 {
+ .acp_col2,
+ .our_col1 {
      padding: 2px 0px 2px 15px;
  }
 
 
- #bargraph {
+ #bargraph,
+                             /*---------- #globe ------------------*/
+ #globe {
      color: var(--orange);
      font-size: 200px;
  }
@@ -275,7 +282,8 @@
      .acp_col1 .btn {
          width: 100%;
      }
-     .acp_col2 {
+     .acp_col2,
+     .our_col1 {
          text-align: center;
          top: 35px;
          padding: 35px 0px;
