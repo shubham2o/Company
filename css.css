@@ -482,11 +482,13 @@
  .pricing h2 {
      font: 24px Lato, sans-serif ;
      font-weight: bolder;
+     margin-top: 70px;
  }
 
 
  .pricing p{
      font: 19px Lato, sans-serif ;
+     margin: 30px 0px;
  }
 
 
