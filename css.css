@@ -450,6 +450,7 @@
      margin: 70px 50px;
      padding: 30px 20px;
      border-radius: 70px;
+     border: 2px solid var(--black);
  }
 
 
@@ -468,8 +469,8 @@
 
  .slide .left,
  .slide .right {
-     margin: 120px 0px;
-     background-color: #424642;
+     margin: 80px 0px;
+     border-radius: 120px;
  }
 
 
