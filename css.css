@@ -580,12 +580,15 @@
  }
 
 
- /*  */
+                             /*------------------ CONTACT --------------------
+                             ------------------- .concol1 --------------------
+                             ------------------- .concol2 --------------------
+                             --------- .row1 - .row1col1 , .row1col2 ---------
+                             --------------- .row2 - .row2col1 -------------*/
 
  .contact {
      margin-top: 10px;
      background-color: #DDDDDD;;
-
  }
 
 
@@ -597,19 +600,75 @@
  }
 
 
+ .contact .row {
+     margin: 0px 22px;
+ }
+
+
  .contact .concol1 {
      font: 15px Lato, sans-serif ;
      color: #787A91;
      font-weight: bolder ;
      word-spacing: 1px;
      line-height: 24px;
-     margin-left: 22px;
  }
 
 
  .contact .concol1 a {
      text-decoration: none;
  }
+
+
+ .concol2 .row1 {
+     margin: 0px -15px;
+ }
+
+
+ .concol2 .row2 {
+     margin: 18px -15px;
+ }
+
+
+ .row2col1 textarea {
+     height: 100px;
+ }
+
+
+ .concol2 .row3 {
+     margin: 23px -15px;
+     text-align: right;
+ }
+
+
+ .concol2 .row3 button {
+     margin-right: 15px;
+     padding: 8px 20px;
+     font: 18px Lato, sans-serif ;
+ }
+
+
+                             /*---------------------------------------
+                             ------------ MEDIA SCREEN {} ------------
+                             -- .concol2 .row1 .row1col1 , .row1col2--
+                             ---------------------------------------*/
+                            
+  @media screen and (max-width: 768px) {
+     .concol2 .row1 .row1col1,
+     .concol2 .row1 .row1col2  {
+         margin-top: 10px;
+     }
+     .concol2 .row1 .row1col2  {
+         margin-bottom: 15px;
+     }
+ }
+
+
+
+
+
+
+
+
 
 
 
