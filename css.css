@@ -580,6 +580,8 @@
  }
 
 
+ /*  */
+
  .contact {
      margin-top: 10px;
      background-color: #DDDDDD;;
@@ -592,6 +594,21 @@
      margin-bottom: 35px;
      font: 24px Lato, sans-serif ;
      font-weight: bolder;
+ }
+
+
+ .contact .concol1 {
+     font: 15px Lato, sans-serif ;
+     color: #787A91;
+     font-weight: bolder ;
+     word-spacing: 1px;
+     line-height: 24px;
+     margin-left: 22px;
+ }
+
+
+ .contact .concol1 a {
+     text-decoration: none;
  }
 
 
