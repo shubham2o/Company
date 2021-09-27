@@ -492,6 +492,88 @@
  }
 
 
+ .pricing .row {
+     margin: 0px 30px;
+ }
+
+
+ .pricing .panel {
+     border-radius: 50px;
+ }
+
+
+ .pricing .panel:hover {
+     box-shadow: 0px 0px 20px var(--black);
+ }
+
+
+ .pricing .panel:hover .panel-heading,
+ .pricing .panel:hover .panel-footer {
+     border: none !important;
+ }
+
+
+ .panel-heading {
+     padding-bottom: 18px;
+     border-top-left-radius: 50px;
+     border-top-right-radius: 50px;
+     color: var(--orange) !important;
+     border-top: 2px solid var(--black) !important;
+     font: 36px Lato, sans-serif;     
+ }
+
+
+ .panel-body {
+     padding-bottom: 0px;
+ }
+
+
+ .panel-body p {
+     margin-top: 9px;
+     font: 15px Lato, sans-serif;
+ }
+
+
+ .panel-footer {
+     border-bottom-left-radius: 50px;
+     border-bottom-right-radius: 50px;
+     border-bottom: 2px solid var(--black) !important;
+     padding-bottom: 30px;
+ }
+
+
+ .panel-footer .btn {
+     background-color:var(--orange);
+     color: var(--white);
+     font: 18px Lato, sans-serif ;
+ }
+
+
+ .panel-footer .btn:hover {
+     background-color: var(--white);
+     border: 1px solid var(--orange);
+     color: var(--orange);
+ }
+
+
+ .panel-footer h3,
+ .panel .btn {
+     margin-top: 15px;
+ }
+
+
+ .panel-footer h3 {
+     font: 35px Lato, sans-serif ;
+ }
+
+
+ .panel-footer h4 {
+     font: 14px Lato, sans-serif ;
+     margin-top: 0px;
+     margin-bottom: 25px;
+ }
+
+
 
 
 
