@@ -53,6 +53,14 @@
 }
 
 
+ .nav1 .navbar-nav li.active a {
+     background-color: var(--white) !important;
+     color: var(--red) !important;
+     font-weight: bolder;
+     font-size: 15px;
+ }
+
+
                              /*--TOP CONTAINER - .topcon - COMPANY --
                              --------------- EMAIL ------------------
                              ------------- SUBSCRIBE ---------------*/
