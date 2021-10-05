@@ -1,2 +1,1 @@
-# Company
-via W3Schools
+https://shubham2o.github.io/Company/
